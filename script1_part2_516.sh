@@ -18,3 +18,4 @@ for i in sub*; do
 
 done 
 
+tree tree /Users/admin/Desktop/EDSD
