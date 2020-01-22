@@ -2,7 +2,7 @@
 
 # DCM2NIIX for T1 images and DWI Images
 
-cd /fslhome/asayd2/compute/EDSD
+cd /Users/admin/Desktop/EDSD
 
 for i in sub*; do 
 
