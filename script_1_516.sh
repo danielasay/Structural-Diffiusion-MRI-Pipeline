@@ -58,3 +58,21 @@ for i in sub*; do
 done
 
 tree ~/Desktop/BIDS/EDSD > ~/Desktop/EDSD-tree.txt
+
+# Screenshots
+
+cd /Users/admin/Desktop/BIDS/EDSD/deriv
+for i in sub*; do
+  cd /Users/admin/Desktop/BIDS/EDSD/deriv/${i}/
+  mkdir ${i}_screenshot/
+  freeview -v \
+  ${i}_T1w_RAS.nii:grayscale=0,800 \
+  --viewport sagittal \
+  --layout 1 \
+  --viewsize 800 800 \
+  --zoom 1 \
+  --screenshot /Users/admin/Desktop/BIDS/EDSD/deriv/${i}/${i}_screenshot/${i}.png
+
+  cd /Users/admin/Desktop/BIDS/EDSD/deriv 
+done
+
