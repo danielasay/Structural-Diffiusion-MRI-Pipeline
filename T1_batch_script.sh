@@ -11,7 +11,6 @@ cd ~/compute/BIDS/EDSD/deriv
 
 for i in sub*; do
 
-cd ~/compute/BIDS/EDSD/deriv
 
   sbatch \
   -o ~/compute/BIDS/EDSD/pT1/${time}_t1/o-${i}.txt \
