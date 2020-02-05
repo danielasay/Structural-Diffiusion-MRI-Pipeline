@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#SBATCH --time=00:15:00   # walltime
+#SBATCH --time=24:00:00   # walltime
 #SBATCH --ntasks=1   # number of processor cores
 #SBATCH --nodes=1   # number of nodes
-#SBATCH --mem-per-cpu=12G  # memory per CPU core
+#SBATCH --mem-per-cpu=16G  # memory per CPU core
 
 # LOAD ENVIRONMENTAL VARIABLES
 
@@ -52,8 +52,6 @@ rm ${1}_cropped.nii.gz
 rm ${1}_n4.nii.gz
 
 
-
-done
 
 
 # Code to source the batch script
