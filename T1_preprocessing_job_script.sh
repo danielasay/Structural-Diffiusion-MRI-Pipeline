@@ -7,6 +7,7 @@
 
 # LOAD ENVIRONMENTAL VARIABLES
 
+freesurfer
 
 #Crop
 
@@ -22,7 +23,6 @@ ${1}_T1w_RAS.nii \
 
 # N4 BIAS FIELD CORRECTION
 
-cd /fslhome/asayd2/compute/BIDS/EDSD/deriv/${1}
 
 
 N4BiasFieldCorrection \
@@ -34,7 +34,7 @@ N4BiasFieldCorrection \
 
 # RESAMPLE
 
-cd /fslhome/asayd2/compute/BIDS/EDSD/deriv/${1}
+
 
 
 c3d \
@@ -45,7 +45,7 @@ ${1}_n4.nii.gz \
 
 #Clean up Directory
 
-cd /fslhome/asayd2/compute/BIDS/EDSD/deriv/${1}
+
 
 
 rm ${1}_cropped.nii.gz
