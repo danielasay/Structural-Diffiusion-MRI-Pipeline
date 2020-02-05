@@ -24,7 +24,6 @@ ${1}_T1w_RAS.nii \
 # N4 BIAS FIELD CORRECTION
 
 
-
 N4BiasFieldCorrection \
 -v -d 3 \
 -i  ${1}_cropped.nii.gz \
@@ -33,8 +32,6 @@ N4BiasFieldCorrection \
 
 
 # RESAMPLE
-
-
 
 
 c3d \
@@ -46,15 +43,9 @@ ${1}_n4.nii.gz \
 #Clean up Directory
 
 
-
-
 rm ${1}_cropped.nii.gz
 rm ${1}_n4.nii.gz
 
 
 
-
-# Code to source the batch script
-
-#source T1_batch_script.sh
 
