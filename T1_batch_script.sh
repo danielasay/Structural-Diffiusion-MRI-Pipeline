@@ -20,3 +20,7 @@ for i in sub*; do
   sleep 1
 
 done
+
+# Code to source the batch script
+
+#sbatch T1_preprocessing_job_script.sh
