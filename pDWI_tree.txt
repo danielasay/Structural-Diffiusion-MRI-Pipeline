@@ -1,0 +1,153 @@
+/fslhome/asayd2/compute/EDSD/deriv/pDWI
+├── sub-FREAD001
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD001/dwi/sub-FREAD001_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD001/dwi/sub-FREAD001_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD001/dwi/sub-FREAD001_dwi.nii.gz
+├── sub-FREAD002
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD002/dwi/sub-FREAD002_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD002/dwi/sub-FREAD002_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD002/dwi/sub-FREAD002_dwi.nii.gz
+├── sub-FREAD003
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD003/dwi/sub-FREAD003_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD003/dwi/sub-FREAD003_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD003/dwi/sub-FREAD003_dwi.nii.gz
+├── sub-FREAD004
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD004/dwi/sub-FREAD004_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD004/dwi/sub-FREAD004_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD004/dwi/sub-FREAD004_dwi.nii.gz
+├── sub-FREAD006
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD006/dwi/sub-FREAD006_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD006/dwi/sub-FREAD006_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD006/dwi/sub-FREAD006_dwi.nii.gz
+├── sub-FREAD007
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD007/dwi/sub-FREAD007_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD007/dwi/sub-FREAD007_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD007/dwi/sub-FREAD007_dwi.nii.gz
+├── sub-FREAD008
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD008/dwi/sub-FREAD008_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD008/dwi/sub-FREAD008_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD008/dwi/sub-FREAD008_dwi.nii.gz
+├── sub-FREAD009
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD009/dwi/sub-FREAD009_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD009/dwi/sub-FREAD009_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD009/dwi/sub-FREAD009_dwi.nii.gz
+├── sub-FREAD010
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD010/dwi/sub-FREAD010_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD010/dwi/sub-FREAD010_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD010/dwi/sub-FREAD010_dwi.nii.gz
+├── sub-FREHC001
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC001/dwi/sub-FREHC001_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC001/dwi/sub-FREHC001_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC001/dwi/sub-FREHC001_dwi.nii.gz
+├── sub-FREHC002
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC002/dwi/sub-FREHC002_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC002/dwi/sub-FREHC002_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC002/dwi/sub-FREHC002_dwi.nii.gz
+├── sub-FREHC003
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC003/dwi/sub-FREHC003_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC003/dwi/sub-FREHC003_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC003/dwi/sub-FREHC003_dwi.nii.gz
+├── sub-FREHC004
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC004/dwi/sub-FREHC004_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC004/dwi/sub-FREHC004_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC004/dwi/sub-FREHC004_dwi.nii.gz
+├── sub-FREHC005
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC005/dwi/sub-FREHC005_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC005/dwi/sub-FREHC005_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC005/dwi/sub-FREHC005_dwi.nii.gz
+├── sub-FREHC006
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC006/dwi/sub-FREHC006_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC006/dwi/sub-FREHC006_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC006/dwi/sub-FREHC006_dwi.nii.gz
+├── sub-FREHC007
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC007/dwi/sub-FREHC007_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC007/dwi/sub-FREHC007_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC007/dwi/sub-FREHC007_dwi.nii.gz
+├── sub-FREHC008
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC008/dwi/sub-FREHC008_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC008/dwi/sub-FREHC008_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC008/dwi/sub-FREHC008_dwi.nii.gz
+├── sub-FREHC009
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC009/dwi/sub-FREHC009_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC009/dwi/sub-FREHC009_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC009/dwi/sub-FREHC009_dwi.nii.gz
+├── sub-FREHC010
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC010/dwi/sub-FREHC010_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC010/dwi/sub-FREHC010_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC010/dwi/sub-FREHC010_dwi.nii.gz
+├── sub-FREHC011
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC011/dwi/sub-FREHC011_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC011/dwi/sub-FREHC011_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC011/dwi/sub-FREHC011_dwi.nii.gz
+├── sub-FREHC012
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC012/dwi/sub-FREHC012_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC012/dwi/sub-FREHC012_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC012/dwi/sub-FREHC012_dwi.nii.gz
+├── sub-FREHC013
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC013/dwi/sub-FREHC013_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC013/dwi/sub-FREHC013_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC013/dwi/sub-FREHC013_dwi.nii.gz
+├── sub-FREHC014
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC014/dwi/sub-FREHC014_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC014/dwi/sub-FREHC014_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC014/dwi/sub-FREHC014_dwi.nii.gz
+├── sub-FREHC015
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC015/dwi/sub-FREHC015_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC015/dwi/sub-FREHC015_dwi.bvec
+│   └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC015/dwi/sub-FREHC015_dwi.nii.gz
+└── sub-FREHC016
+    ├── dwi_b0_mask.nii.gz
+    ├── dwi_b0.nii.gz
+    ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC016/dwi/sub-FREHC016_dwi.bval
+    ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC016/dwi/sub-FREHC016_dwi.bvec
+    └── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC016/dwi/sub-FREHC016_dwi.nii.gz
+
+25 directories, 125 files
