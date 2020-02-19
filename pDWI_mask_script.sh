@@ -38,7 +38,9 @@ cd ${pWDI_path}
 
 bet dwi_b0.nii.gz dwi_b0 -f 0.1 -g 0 -m -n
 
+# Create Tree File
 
+tree fslhome/asayd2/compute/EDSD/deriv/pDWI > ~/pWDI.txt
 
 
 
