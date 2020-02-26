@@ -36,7 +36,7 @@ eddy_openmp \
 --imain=dwi.nii.gz \
 --acqp=acqparams.txt \
 --index=index.txt \
---mask=dwi_b0_mask.nii.gz \
+--mask=dwi_mask_cleaned.nii.gz \
 --bvecs=dwi.bvec \
 --bvals=dwi.bval \
 --out=dwi_eddy \
