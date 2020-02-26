@@ -36,7 +36,17 @@ fslroi dwi.nii.gz dwi_b0.nii.gz 0 1
 
 cd ${pWDI_path}
 
-bet dwi_b0.nii.gz dwi_b0 -f 0.1 -g 0 -m -n
+bet dwi_b0.nii.gz dwi_b0 -f 0.3 -g 0 -m -n
+
+# Clean Brain Mask
+
+cd ${pDWI_path}
+
+c3d \
+dwi_mask.nii.gz \
+-erode 1 1x1x1vox \
+-o dwi_mask_cleaned.nii.gz
+
 
 # Create Tree File
 
