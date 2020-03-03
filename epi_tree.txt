@@ -1,0 +1,855 @@
+.
+├── b-values
+│   └── b_values.csv
+├── sub-FREAD001
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD001/dwi/sub-FREAD001_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD001/dwi/sub-FREAD001_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD001/dwi/sub-FREAD001_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREAD002
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD002/dwi/sub-FREAD002_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD002/dwi/sub-FREAD002_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD002/dwi/sub-FREAD002_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREAD003
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD003/dwi/sub-FREAD003_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD003/dwi/sub-FREAD003_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD003/dwi/sub-FREAD003_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREAD004
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD004/dwi/sub-FREAD004_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD004/dwi/sub-FREAD004_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD004/dwi/sub-FREAD004_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREAD006
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD006/dwi/sub-FREAD006_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD006/dwi/sub-FREAD006_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD006/dwi/sub-FREAD006_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREAD007
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD007/dwi/sub-FREAD007_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD007/dwi/sub-FREAD007_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD007/dwi/sub-FREAD007_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREAD008
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD008/dwi/sub-FREAD008_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD008/dwi/sub-FREAD008_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD008/dwi/sub-FREAD008_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREAD009
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD009/dwi/sub-FREAD009_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD009/dwi/sub-FREAD009_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD009/dwi/sub-FREAD009_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREAD010
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREAD010/dwi/sub-FREAD010_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREAD010/dwi/sub-FREAD010_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREAD010/dwi/sub-FREAD010_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC001
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC001/dwi/sub-FREHC001_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC001/dwi/sub-FREHC001_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC001/dwi/sub-FREHC001_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC002
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC002/dwi/sub-FREHC002_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC002/dwi/sub-FREHC002_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC002/dwi/sub-FREHC002_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC003
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC003/dwi/sub-FREHC003_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC003/dwi/sub-FREHC003_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC003/dwi/sub-FREHC003_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC004
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC004/dwi/sub-FREHC004_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC004/dwi/sub-FREHC004_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC004/dwi/sub-FREHC004_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC005
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC005/dwi/sub-FREHC005_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC005/dwi/sub-FREHC005_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC005/dwi/sub-FREHC005_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC006
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC006/dwi/sub-FREHC006_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC006/dwi/sub-FREHC006_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC006/dwi/sub-FREHC006_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC007
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC007/dwi/sub-FREHC007_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC007/dwi/sub-FREHC007_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC007/dwi/sub-FREHC007_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC008
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC008/dwi/sub-FREHC008_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC008/dwi/sub-FREHC008_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC008/dwi/sub-FREHC008_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC009
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC009/dwi/sub-FREHC009_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC009/dwi/sub-FREHC009_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC009/dwi/sub-FREHC009_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC010
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC010/dwi/sub-FREHC010_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC010/dwi/sub-FREHC010_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC010/dwi/sub-FREHC010_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC011
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC011/dwi/sub-FREHC011_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC011/dwi/sub-FREHC011_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC011/dwi/sub-FREHC011_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC012
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC012/dwi/sub-FREHC012_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC012/dwi/sub-FREHC012_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC012/dwi/sub-FREHC012_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC013
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC013/dwi/sub-FREHC013_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC013/dwi/sub-FREHC013_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC013/dwi/sub-FREHC013_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC014
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC014/dwi/sub-FREHC014_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC014/dwi/sub-FREHC014_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC014/dwi/sub-FREHC014_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+├── sub-FREHC015
+│   ├── acqparams.txt
+│   ├── dwi_b0_mask.nii.gz
+│   ├── dwi_b0.nii.gz
+│   ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC015/dwi/sub-FREHC015_dwi.bval
+│   ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC015/dwi/sub-FREHC015_dwi.bvec
+│   ├── dwi_eddy_b0_mask.nii.gz
+│   ├── dwi_eddy_b0.nii.gz
+│   ├── dwi_eddy.eddy_command_txt
+│   ├── dwi_eddy.eddy_movement_rms
+│   ├── dwi_eddy.eddy_outlier_map
+│   ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+│   ├── dwi_eddy.eddy_outlier_n_stdev_map
+│   ├── dwi_eddy.eddy_outlier_report
+│   ├── dwi_eddy.eddy_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+│   ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+│   ├── dwi_eddy.eddy_restricted_movement_rms
+│   ├── dwi_eddy.eddy_rotated_bvecs
+│   ├── dwi_eddy.eddy_values_of_all_input_parameters
+│   ├── dwi_eddy.nii.gz
+│   ├── dwi_epi0GenericAffine.mat
+│   ├── dwi_epi1InverseWarp.nii.gz
+│   ├── dwi_epi1Warp.nii.gz
+│   ├── dwi_epiInverseWarped.nii.gz
+│   ├── dwi_epiWarped.nii.gz
+│   ├── dwi_mask_cleaned.nii.gz
+│   ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC015/dwi/sub-FREHC015_dwi.nii.gz
+│   ├── index.txt
+│   ├── t1.nii.gz
+│   ├── T1toEddyB0_0GenericAffine.mat
+│   ├── T1toEddyB0_InverseWarped.nii.gz
+│   ├── T1toEddyB0_Warped0GenericAffine.mat
+│   └── T1toEddyB0_Warped.nii.gz
+└── sub-FREHC016
+    ├── acqparams.txt
+    ├── dwi_b0_mask.nii.gz
+    ├── dwi_b0.nii.gz
+    ├── dwi.bval -> /fslhome/asayd2/compute/EDSD/sub-FREHC016/dwi/sub-FREHC016_dwi.bval
+    ├── dwi.bvec -> /fslhome/asayd2/compute/EDSD/sub-FREHC016/dwi/sub-FREHC016_dwi.bvec
+    ├── dwi_eddy_b0_mask.nii.gz
+    ├── dwi_eddy_b0.nii.gz
+    ├── dwi_eddy.eddy_command_txt
+    ├── dwi_eddy.eddy_movement_rms
+    ├── dwi_eddy.eddy_outlier_map
+    ├── dwi_eddy.eddy_outlier_n_sqr_stdev_map
+    ├── dwi_eddy.eddy_outlier_n_stdev_map
+    ├── dwi_eddy.eddy_outlier_report
+    ├── dwi_eddy.eddy_parameters
+    ├── dwi_eddy.eddy_post_eddy_shell_alignment_parameters
+    ├── dwi_eddy.eddy_post_eddy_shell_PE_translation_parameters
+    ├── dwi_eddy.eddy_restricted_movement_rms
+    ├── dwi_eddy.eddy_rotated_bvecs
+    ├── dwi_eddy.eddy_values_of_all_input_parameters
+    ├── dwi_eddy.nii.gz
+    ├── dwi_epi0GenericAffine.mat
+    ├── dwi_epi1InverseWarp.nii.gz
+    ├── dwi_epi1Warp.nii.gz
+    ├── dwi_epiInverseWarped.nii.gz
+    ├── dwi_epiWarped.nii.gz
+    ├── dwi_mask_cleaned.nii.gz
+    ├── dwi.nii.gz -> /fslhome/asayd2/compute/EDSD/sub-FREHC016/dwi/sub-FREHC016_dwi.nii.gz
+    ├── index.txt
+    ├── t1.nii.gz
+    ├── T1toEddyB0_0GenericAffine.mat
+    ├── T1toEddyB0_InverseWarped.nii.gz
+    ├── T1toEddyB0_Warped0GenericAffine.mat
+    └── T1toEddyB0_Warped.nii.gz
+
+26 directories, 826 files
