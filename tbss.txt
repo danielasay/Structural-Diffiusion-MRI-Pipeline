@@ -1,0 +1,268 @@
+/fslhome/asayd2/compute/EDSD/deriv/tbss
+├── FA
+│   ├── slicesdir
+│   │   ├── grota.png
+│   │   ├── grotb.png
+│   │   ├── grotc.png
+│   │   ├── grotd.png
+│   │   ├── grote.png
+│   │   ├── grotf.png
+│   │   ├── grotg.png
+│   │   ├── groth.png
+│   │   ├── groti.png
+│   │   ├── index.html
+│   │   ├── sub-FREAD001_FA_FA.png
+│   │   ├── sub-FREAD002_FA_FA.png
+│   │   ├── sub-FREAD003_FA_FA.png
+│   │   ├── sub-FREAD004_FA_FA.png
+│   │   ├── sub-FREAD006_FA_FA.png
+│   │   ├── sub-FREAD007_FA_FA.png
+│   │   ├── sub-FREAD008_FA_FA.png
+│   │   ├── sub-FREAD009_FA_FA.png
+│   │   ├── sub-FREAD010_FA_FA.png
+│   │   ├── sub-FREHC001_FA_FA.png
+│   │   ├── sub-FREHC002_FA_FA.png
+│   │   ├── sub-FREHC003_FA_FA.png
+│   │   ├── sub-FREHC004_FA_FA.png
+│   │   ├── sub-FREHC005_FA_FA.png
+│   │   ├── sub-FREHC006_FA_FA.png
+│   │   ├── sub-FREHC007_FA_FA.png
+│   │   ├── sub-FREHC008_FA_FA.png
+│   │   ├── sub-FREHC009_FA_FA.png
+│   │   ├── sub-FREHC010_FA_FA.png
+│   │   ├── sub-FREHC011_FA_FA.png
+│   │   ├── sub-FREHC012_FA_FA.png
+│   │   ├── sub-FREHC013_FA_FA.png
+│   │   ├── sub-FREHC014_FA_FA.png
+│   │   ├── sub-FREHC015_FA_FA.png
+│   │   └── sub-FREHC016_FA_FA.png
+│   ├── sub-FREAD001_FA_FA_mask.nii.gz
+│   ├── sub-FREAD001_FA_FA.nii.gz
+│   ├── sub-FREAD001_FA_FA_to_target.log
+│   ├── sub-FREAD001_FA_FA_to_target.mat
+│   ├── sub-FREAD001_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD001_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREAD002_FA_FA_mask.nii.gz
+│   ├── sub-FREAD002_FA_FA.nii.gz
+│   ├── sub-FREAD002_FA_FA_to_target.log
+│   ├── sub-FREAD002_FA_FA_to_target.mat
+│   ├── sub-FREAD002_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD002_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREAD003_FA_FA_mask.nii.gz
+│   ├── sub-FREAD003_FA_FA.nii.gz
+│   ├── sub-FREAD003_FA_FA_to_target.log
+│   ├── sub-FREAD003_FA_FA_to_target.mat
+│   ├── sub-FREAD003_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD003_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREAD004_FA_FA_mask.nii.gz
+│   ├── sub-FREAD004_FA_FA.nii.gz
+│   ├── sub-FREAD004_FA_FA_to_target.log
+│   ├── sub-FREAD004_FA_FA_to_target.mat
+│   ├── sub-FREAD004_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD004_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREAD006_FA_FA_mask.nii.gz
+│   ├── sub-FREAD006_FA_FA.nii.gz
+│   ├── sub-FREAD006_FA_FA_to_target.log
+│   ├── sub-FREAD006_FA_FA_to_target.mat
+│   ├── sub-FREAD006_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD006_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREAD007_FA_FA_mask.nii.gz
+│   ├── sub-FREAD007_FA_FA.nii.gz
+│   ├── sub-FREAD007_FA_FA_to_target.log
+│   ├── sub-FREAD007_FA_FA_to_target.mat
+│   ├── sub-FREAD007_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD007_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREAD008_FA_FA_mask.nii.gz
+│   ├── sub-FREAD008_FA_FA.nii.gz
+│   ├── sub-FREAD008_FA_FA_to_target.log
+│   ├── sub-FREAD008_FA_FA_to_target.mat
+│   ├── sub-FREAD008_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD008_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREAD009_FA_FA_mask.nii.gz
+│   ├── sub-FREAD009_FA_FA.nii.gz
+│   ├── sub-FREAD009_FA_FA_to_target.log
+│   ├── sub-FREAD009_FA_FA_to_target.mat
+│   ├── sub-FREAD009_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD009_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREAD010_FA_FA_mask.nii.gz
+│   ├── sub-FREAD010_FA_FA.nii.gz
+│   ├── sub-FREAD010_FA_FA_to_target.log
+│   ├── sub-FREAD010_FA_FA_to_target.mat
+│   ├── sub-FREAD010_FA_FA_to_target_warp.msf
+│   ├── sub-FREAD010_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC001_FA_FA_mask.nii.gz
+│   ├── sub-FREHC001_FA_FA.nii.gz
+│   ├── sub-FREHC001_FA_FA_to_target.log
+│   ├── sub-FREHC001_FA_FA_to_target.mat
+│   ├── sub-FREHC001_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC001_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC002_FA_FA_mask.nii.gz
+│   ├── sub-FREHC002_FA_FA.nii.gz
+│   ├── sub-FREHC002_FA_FA_to_target.log
+│   ├── sub-FREHC002_FA_FA_to_target.mat
+│   ├── sub-FREHC002_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC002_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC003_FA_FA_mask.nii.gz
+│   ├── sub-FREHC003_FA_FA.nii.gz
+│   ├── sub-FREHC003_FA_FA_to_target.log
+│   ├── sub-FREHC003_FA_FA_to_target.mat
+│   ├── sub-FREHC003_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC003_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC004_FA_FA_mask.nii.gz
+│   ├── sub-FREHC004_FA_FA.nii.gz
+│   ├── sub-FREHC004_FA_FA_to_target.log
+│   ├── sub-FREHC004_FA_FA_to_target.mat
+│   ├── sub-FREHC004_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC004_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC005_FA_FA_mask.nii.gz
+│   ├── sub-FREHC005_FA_FA.nii.gz
+│   ├── sub-FREHC005_FA_FA_to_target.log
+│   ├── sub-FREHC005_FA_FA_to_target.mat
+│   ├── sub-FREHC005_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC005_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC006_FA_FA_mask.nii.gz
+│   ├── sub-FREHC006_FA_FA.nii.gz
+│   ├── sub-FREHC006_FA_FA_to_target.log
+│   ├── sub-FREHC006_FA_FA_to_target.mat
+│   ├── sub-FREHC006_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC006_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC007_FA_FA_mask.nii.gz
+│   ├── sub-FREHC007_FA_FA.nii.gz
+│   ├── sub-FREHC007_FA_FA_to_target.log
+│   ├── sub-FREHC007_FA_FA_to_target.mat
+│   ├── sub-FREHC007_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC007_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC008_FA_FA_mask.nii.gz
+│   ├── sub-FREHC008_FA_FA.nii.gz
+│   ├── sub-FREHC008_FA_FA_to_target.log
+│   ├── sub-FREHC008_FA_FA_to_target.mat
+│   ├── sub-FREHC008_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC008_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC009_FA_FA_mask.nii.gz
+│   ├── sub-FREHC009_FA_FA.nii.gz
+│   ├── sub-FREHC009_FA_FA_to_target.log
+│   ├── sub-FREHC009_FA_FA_to_target.mat
+│   ├── sub-FREHC009_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC009_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC010_FA_FA_mask.nii.gz
+│   ├── sub-FREHC010_FA_FA.nii.gz
+│   ├── sub-FREHC010_FA_FA_to_target.log
+│   ├── sub-FREHC010_FA_FA_to_target.mat
+│   ├── sub-FREHC010_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC010_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC011_FA_FA_mask.nii.gz
+│   ├── sub-FREHC011_FA_FA.nii.gz
+│   ├── sub-FREHC011_FA_FA_to_target.log
+│   ├── sub-FREHC011_FA_FA_to_target.mat
+│   ├── sub-FREHC011_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC011_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC012_FA_FA_mask.nii.gz
+│   ├── sub-FREHC012_FA_FA.nii.gz
+│   ├── sub-FREHC012_FA_FA_to_target.log
+│   ├── sub-FREHC012_FA_FA_to_target.mat
+│   ├── sub-FREHC012_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC012_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC013_FA_FA_mask.nii.gz
+│   ├── sub-FREHC013_FA_FA.nii.gz
+│   ├── sub-FREHC013_FA_FA_to_target.log
+│   ├── sub-FREHC013_FA_FA_to_target.mat
+│   ├── sub-FREHC013_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC013_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC014_FA_FA_mask.nii.gz
+│   ├── sub-FREHC014_FA_FA.nii.gz
+│   ├── sub-FREHC014_FA_FA_to_target.log
+│   ├── sub-FREHC014_FA_FA_to_target.mat
+│   ├── sub-FREHC014_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC014_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC015_FA_FA_mask.nii.gz
+│   ├── sub-FREHC015_FA_FA.nii.gz
+│   ├── sub-FREHC015_FA_FA_to_target.log
+│   ├── sub-FREHC015_FA_FA_to_target.mat
+│   ├── sub-FREHC015_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC015_FA_FA_to_target_warp.nii.gz
+│   ├── sub-FREHC016_FA_FA_mask.nii.gz
+│   ├── sub-FREHC016_FA_FA.nii.gz
+│   ├── sub-FREHC016_FA_FA_to_target.log
+│   ├── sub-FREHC016_FA_FA_to_target.mat
+│   ├── sub-FREHC016_FA_FA_to_target_warp.msf
+│   ├── sub-FREHC016_FA_FA_to_target_warp.nii.gz
+│   ├── target.nii.gz
+│   └── tbss_logs
+│       ├── tbss_2_reg.e62689.1
+│       ├── tbss_2_reg.e62689.10
+│       ├── tbss_2_reg.e62689.11
+│       ├── tbss_2_reg.e62689.12
+│       ├── tbss_2_reg.e62689.13
+│       ├── tbss_2_reg.e62689.14
+│       ├── tbss_2_reg.e62689.15
+│       ├── tbss_2_reg.e62689.16
+│       ├── tbss_2_reg.e62689.17
+│       ├── tbss_2_reg.e62689.18
+│       ├── tbss_2_reg.e62689.19
+│       ├── tbss_2_reg.e62689.2
+│       ├── tbss_2_reg.e62689.20
+│       ├── tbss_2_reg.e62689.21
+│       ├── tbss_2_reg.e62689.22
+│       ├── tbss_2_reg.e62689.23
+│       ├── tbss_2_reg.e62689.24
+│       ├── tbss_2_reg.e62689.25
+│       ├── tbss_2_reg.e62689.3
+│       ├── tbss_2_reg.e62689.4
+│       ├── tbss_2_reg.e62689.5
+│       ├── tbss_2_reg.e62689.6
+│       ├── tbss_2_reg.e62689.7
+│       ├── tbss_2_reg.e62689.8
+│       ├── tbss_2_reg.e62689.9
+│       ├── tbss_2_reg.o62689.1
+│       ├── tbss_2_reg.o62689.10
+│       ├── tbss_2_reg.o62689.11
+│       ├── tbss_2_reg.o62689.12
+│       ├── tbss_2_reg.o62689.13
+│       ├── tbss_2_reg.o62689.14
+│       ├── tbss_2_reg.o62689.15
+│       ├── tbss_2_reg.o62689.16
+│       ├── tbss_2_reg.o62689.17
+│       ├── tbss_2_reg.o62689.18
+│       ├── tbss_2_reg.o62689.19
+│       ├── tbss_2_reg.o62689.2
+│       ├── tbss_2_reg.o62689.20
+│       ├── tbss_2_reg.o62689.21
+│       ├── tbss_2_reg.o62689.22
+│       ├── tbss_2_reg.o62689.23
+│       ├── tbss_2_reg.o62689.24
+│       ├── tbss_2_reg.o62689.25
+│       ├── tbss_2_reg.o62689.3
+│       ├── tbss_2_reg.o62689.4
+│       ├── tbss_2_reg.o62689.5
+│       ├── tbss_2_reg.o62689.6
+│       ├── tbss_2_reg.o62689.7
+│       ├── tbss_2_reg.o62689.8
+│       └── tbss_2_reg.o62689.9
+└── origdata
+    ├── sub-FREAD001_FA.nii.gz
+    ├── sub-FREAD002_FA.nii.gz
+    ├── sub-FREAD003_FA.nii.gz
+    ├── sub-FREAD004_FA.nii.gz
+    ├── sub-FREAD006_FA.nii.gz
+    ├── sub-FREAD007_FA.nii.gz
+    ├── sub-FREAD008_FA.nii.gz
+    ├── sub-FREAD009_FA.nii.gz
+    ├── sub-FREAD010_FA.nii.gz
+    ├── sub-FREHC001_FA.nii.gz
+    ├── sub-FREHC002_FA.nii.gz
+    ├── sub-FREHC003_FA.nii.gz
+    ├── sub-FREHC004_FA.nii.gz
+    ├── sub-FREHC005_FA.nii.gz
+    ├── sub-FREHC006_FA.nii.gz
+    ├── sub-FREHC007_FA.nii.gz
+    ├── sub-FREHC008_FA.nii.gz
+    ├── sub-FREHC009_FA.nii.gz
+    ├── sub-FREHC010_FA.nii.gz
+    ├── sub-FREHC011_FA.nii.gz
+    ├── sub-FREHC012_FA.nii.gz
+    ├── sub-FREHC013_FA.nii.gz
+    ├── sub-FREHC014_FA.nii.gz
+    ├── sub-FREHC015_FA.nii.gz
+    └── sub-FREHC016_FA.nii.gz
+
+4 directories, 261 files
