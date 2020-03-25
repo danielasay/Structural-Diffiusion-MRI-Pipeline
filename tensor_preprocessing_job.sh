@@ -14,8 +14,8 @@ tensor_dir=~/compute/EDSD/deriv/pDWI/${1}
 
 cd ${tensor_dir}
 
-bet dwi_epi.nii.gz dwi_epi_b0 -f 0.5 -g 0 -m 
-bet dwi_epi.nii.gz dwi_epi_b0 -f 0.5 -g 0 -m 
+bet dwi_epi.nii.gz dwi_epi_b0 -f 0.2 -g 0 -m 
+bet dwi_epi.nii.gz dwi_epi_b0 -f 0.2 -g 0 -m 
 
 # Fit Tensors
 
